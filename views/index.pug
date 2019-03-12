@@ -1,0 +1,38 @@
+extends layout
+
+block link
+  link(href='stylesheets/index.css' rel='stylesheet' type='text/css')
+  title Home
+
+block heading
+  #myDigitalClock.clock
+  block h1
+
+  block p
+  
+
+block back-row
+    ul
+      li
+        a.about(href='#about') About Me
+      li
+        a.jack(href='#jack') JackJack&apos;s life
+      li
+        a.cello(href='#video') Cello(ed)
+      li
+        a.skills(href='#skills') Skills
+      li
+        a.contact(href='#contact') Contact
+
+block footer
+  #footer
+    .sns
+      ul
+        li
+          a.facebook(href='#twit' style='color: white') T
+        li
+          a.instagram(href='#face' style='color: white') F
+        li
+          a.twitter(href='#insta' style='color: white') I
+block scripts
+  script(src='javascripts/index.js')

@@ -1,0 +1,25 @@
+extends layout
+
+block link
+  link(href='stylesheets/about.css' rel='stylesheet' type='text/css')
+  title About Me
+
+block heading
+  .heading
+    block h1
+    h1(style='color:white') Hello.
+    block p
+    p(style='color:white') -This is who I am.
+
+  // header
+block back-row
+  .imagee
+    img(src='images/IMG_3889.jpg' alt='doggie' style="width:500px;height:500px;")
+  .box
+   h1 1992 - Current
+   p Hello! My name is Stacy SungWon Cho. I was borned in Seoul, South Korea in 1992 and moved to America (Los Angeles, CA) in 2003.
+   p I spend my whole childhood in California and moved to NYC in 2013 for College (Mannes College of Music). I studied cello there for my undergraduate and master degree.  After I finished my first year in Master, I decided to quit Cello to start something new! Computer.
+   p Computer is a different field, but in some ways, I see a lot of similarities with music in terms of commitment and work ethic. It's fun to find and learn new things everyday and live different life that I never dreamed of. Other than Cello and Computer, I have great passion and love for dogs.  I recently got a dog from California and her name is JackJack. She just had a birthday in January and turned 1 year old.
+   p My another chapter of life is to be continue...
+block scripts
+  script(src='javascripts/about.js')

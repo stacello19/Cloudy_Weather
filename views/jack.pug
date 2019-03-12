@@ -1,0 +1,40 @@
+extends layout
+
+block link
+  link(href='stylesheets/jack.css' rel='stylesheet' type='text/css')
+  title JackJack
+
+block heading
+  .heading
+    block h1
+    h1
+    | I 
+    block i
+    i.fas.fa-heart(style='color:tomato')
+    |  Dog
+    block p
+    p(style='color:white') -JackJack&apos;s NYC Life
+
+  
+block back-row
+    .pix
+      .pic.pix1.nonpic
+      .pic.pix2
+        img(src='/images/IMG_3953.jpg' alt='jack2')
+      .pic.pix3
+        img(src='/images/IMG_4192.jpg' alt='jack3')
+      .pic.pix4
+        img(src='/images/IMG_4288.jpg' alt='jack4')
+      .pic.pix5
+        img(src='/images/IMG_4340.jpg' alt='jack5')
+      .pic.pix6
+        img(src='/images/IMG_4365.jpg' alt='jack6')
+      .pic.pix7
+        img(src='/images/IMG_4480.jpg' alt='jack7')
+      .pic.pix8
+        img(src='/images/IMG_4519.jpg' alt='jack8')
+      .pic.pix9
+        img(src='/images/IMG_4522.jpg' alt='jack9')
+      .pic.pix10.nonpic
+block scripts
+  script(src='javascripts/jack.js')

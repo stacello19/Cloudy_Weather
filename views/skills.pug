@@ -1,0 +1,23 @@
+extends layout
+
+block link
+  link(href='stylesheets/skills.css' rel='stylesheet' type='text/css')
+  title Skills
+
+block heading
+  .heading
+    block h1
+    h1(style='color:white') Skills.
+    block p
+    p(style='color:white') -What I have done.
+
+block back-row
+    .image
+      img(src='/images/IMG_4228.jpg' alt='me')
+    h1
+      p.typewrite(href='' data-period='2000' data-type='["Hi ", ", ", "I ", "am ", "Stacy", ".", "</br>", "I", " love", " to", " Design", ".", "</br>", "I", " love", " to", " Develop", ".", "</br>", "Since", " Nov. 2018,", " I", " have", " learned", "</br>", "HTML, ", "CSS, ", "Javascript, ", "Node.js, ", "MongoDB, ", "Pug, ", "Express, ", "and", " React." ]')
+        span.wrap
+    i#animationItem-image--middleSmallsmallCloud.animationItem.material-icons cloud
+    i#animationItem-image--middleSmallCloud.animationItem.material-icons cloud
+block scripts
+  script(src='javascripts/skills.js')

@@ -1,0 +1,37 @@
+extends layout
+
+block link
+  link(href='stylesheets/contact.css' rel='stylesheet' type='text/css')
+  title Contact
+
+block heading
+    .heading
+      block h1
+      h1(style='color:white') Contact.
+      block p
+      p(style='color:white') -I love to hear from you!
+
+block back-row
+    i#animationItem-image--middleSmallCloud.animationItem.material-icons cloud
+    i#animationItem-image--middleSmallmiddleCloud.animationItem.material-icons cloud
+    i#animationItem-image--middleSmallsmallCloud.animationItem.material-icons cloud
+    .row
+      .col-md-4
+        i.far.fa-envelope-open(style='color:white') 
+      .col-md-8
+        h1 Email  
+        p stacello19@gmail.com
+      .col-md-4
+        i.fas.fa-phone-square(style='color:white')
+      .col-md-8
+        h1 Phone#
+        p (562)484-8811
+      .col-md-4
+        i.fas.fa-home(style='color:white')
+      .col-md-8
+        h1 Address
+        p 4 Beacon Way Jersey City, NJ 07304
+
+block scripts
+  script(src='javascripts/contact.js')
+  //- script(src='https://maps.googleapis.com/maps/api/js?key=AIzaSyB6TgNW6b8iS2qKdQQdBehEgJt4Ld2rtL4&callback=myMap' async='' defer='')

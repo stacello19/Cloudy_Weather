@@ -1,0 +1,27 @@
+.box {
+  margin-right: 10px;
+  width: 50%;
+  position: absolute;
+  top: 30%;
+  right: 0;
+}
+.box h1 {
+  color: white;
+  font-weight: 600;
+  font-family: courier;
+}
+p{
+  font-size: 17px;
+  color: white;
+  font-family: courier;
+}
+.imagee {
+  display: inline-flex;
+  padding: 20px;
+  margin-left: 40px;
+}
+img {
+  border-radius: 50%;
+  z-index: 2;
+}
+

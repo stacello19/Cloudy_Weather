@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="stylesheets/contact.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons"> 
+    <title>Contact</title>
+</head>
+<body>
+
+        <!--Wrapper-->
+        <div id="wrapper">
+
+                <!--Navbar-->
+
+                <div class="navbar">
+                    <div class="heading"><h1 style="color:white">Contact.</h1>
+                         <p style="color:white">-I love to hear from you!</p>
+                    </div>
+                    <main class="container-animation--flexbox"> 
+                        <i id="animationItem-image--bigCloud" class="animationItem material-icons">cloud</i>
+                        <i id="animationItem-image--middleCloud" class="animationItem material-icons">cloud</i>
+                        <i id="animationItem-image--smallCloud" class="animationItem material-icons">cloud</i> 
+                    </main>
+                    
+                    <div class="logo">
+                        <h1>logo</h1>
+                    </div>
+                </div>
+
+
+    
+                <!--header-->
+                <div id="header">
+                        <div class="rains">
+                            <div class="rain front-row"></div>
+                            <div class="rain back-row"></div>
+                        </div>
+
+                        <div id="map" ></div>
+
+                        <form action="#">
+                            <label for="email">Email</label>
+                            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                            <label for="number">Phone#</label>
+                            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                            <label for="address">Address</label>
+                            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                        </form>
+                </div>
+
+        </div>
+<script>
+        var map;
+        function initMap() {
+            map = new google.maps.Map(document.getElementById('map'), {
+            center: {lat: -34.397, lng: 150.644},
+            zoom: 8
+            });
+        }
+</script>      
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB6TgNW6b8iS2qKdQQdBehEgJt4Ld2rtL4&callback=initMap"
+async defer></script>
+<script src="javascripts/contact.js"></script>
+</body>
+</html>
+
+
+
