@@ -107,10 +107,10 @@
       transform: translateY(0%);
     }
     50% {
-      transform: translateY(40vh);
+      transform: translateY(30vh);
     }        
     100% {
-      transform: translateY(50vh);
+      transform: translateY(55vh);
     }
   }
   

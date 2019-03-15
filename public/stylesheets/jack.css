@@ -47,8 +47,8 @@
     background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
   }
   #header {
-    min-height: 85vh!important;
-    max-height: 85vh!important;
+    min-height: 105vh!important;
+    max-height: 105vh!important;
   }
 
 
