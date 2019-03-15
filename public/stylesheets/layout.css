@@ -9,6 +9,10 @@
     position: relative;
     top: 30%;
   }
+  #header {
+    min-height: 80vh;
+    max-height: 80vh;
+  }
   /* Cloud nav */
   .container-animation--flexbox {
   height: 100%;
