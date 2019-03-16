@@ -8,13 +8,8 @@
 }
 
 #header {
-    height: 400px;
+    min-height: 63vh!important;
 } 
-
-
-
-
-
 #footer {
     width: 100%;
     height: 100px;
@@ -32,4 +27,103 @@
     float: left;
     font-size: 30px;
     letter-spacing: 20px;
+}
+
+.boxes {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 90%;
+    max-width: 790px;
+    height: 180px;
+    font-family: "Open Sans", sans-serif;
+    transform: translate(-50%, -50%);
+}
+.box {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 40px 0 65px rgba(212, 197, 186, 0.4);
+    padding: 0 80px;
+    box-sizing: border-box;
+    opacity: 1;
+    transform-origin: center;
+    position: absolute;
+
+    transform: scale(1.2, 1.2);
+}
+.hello {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.bar {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #e8dfd8;
+    width: 100%;
+    height: 3px;
+    border-radius: 10px;
+    transform: translate(-50%, -50%);
+}
+.bar__fill {
+    display: block;
+    background: #bd8044;
+    height: 100%;
+}
+.point {
+    position: relative;
+    color: #ac9585;
+    cursor: pointer;
+}
+.point:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    transform: translate(-50%, -50%);
+    transition: 0.3s ease;
+}
+.point--complete, .point--active {
+    color: #ba7c3f;
+}
+.bullet {
+    z-index: 1;
+    position: relative;
+    background: #ac9585;
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    transition: 0.3s ease;
+}
+.point--complete .bullet, .point--active .bullet {
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 0 0 6px #bd8044;
+}
+.point--active .bullet {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 0 0 10px #bd8044;
+}
+.label {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin: 20px 0 0 0;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    transform: translate(-50%, 0);
+}
+@media only screen and (max-width: 600px) {
+    .clock {margin-right: auto; margin-left: auto;margin-top:auto;font-size: 70px; }
+    .navbar {border-bottom: 3px dotted black;}
 }

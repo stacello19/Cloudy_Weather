@@ -166,6 +166,7 @@
       transform: scale(1.5);
     }
   }
+   
   @media only screen and (max-width: 800px) {
     .navbar .animationItem {display: none;}
     .container-animation--flexbox {display: none;}

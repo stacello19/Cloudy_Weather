@@ -12,17 +12,26 @@ block heading
   
 
 block back-row
-    ul
-      li
-        a.about(href='#about') About Me
-      li
-        a.jack(href='#jack') JackJack&apos;s life
-      li
-        a.cello(href='#video') Cello(ed)
-      li
-        a.skills(href='#skills') Skills
-      li
-        a.contact(href='#contact') Contact
+  .boxes
+    .box
+      .hello
+        .bar
+          .bar__fill(style='width: 27%;')
+        .point.point--complete
+          .bullet
+          label.label About
+        .point.point--active
+          .bullet
+          label.label Cello
+        .point
+          .bullet
+          label.label Jack
+        .point
+          .bullet
+          label.label Skills  
+        .point
+          .bullet
+          label.label Contact        
 
 block footer
   #footer
@@ -36,3 +45,4 @@ block footer
           a.twitter(href='#insta' style='color: white') I
 block scripts
   script(src='javascripts/index.js')
+  script(src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js')
