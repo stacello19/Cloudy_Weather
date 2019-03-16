@@ -166,7 +166,10 @@
       transform: scale(1.5);
     }
   }
-   
+  .logo img {
+    height: 100px;
+    width: 100px;
+  }
   @media only screen and (max-width: 800px) {
     .navbar .animationItem {display: none;}
     .container-animation--flexbox {display: none;}
