@@ -56,7 +56,7 @@
 }
 #animationItem-image--middleSmallCloud {
     animation: bobble 6s infinite;
-    margin-top: 355px;
+    bottom: -10%;
     margin-left: -217px;
     font-size: 167px;
     color: #7467e9;
@@ -67,7 +67,7 @@
   }
   #animationItem-image--middleSmallsmallCloud {
     animation: bobble 6s infinite;
-    margin-top: 300px;
+    bottom: -6%;
     margin-left: -217px;
     font-size: 130px;
     color: #e76464;
@@ -77,4 +77,10 @@
     right: 15%;
   }
 
-
+  @media only screen and (max-width: 800px){
+    #animationItem-image--middleSmallCloud {display: none;}
+    #animationItem-image--middleSmallsmallCloud {display: none;}
+    .image {display: none;}
+    #header h1 {margin-top: 10%;}
+  }
+ 
