@@ -166,3 +166,15 @@
       transform: scale(1.5);
     }
   }
+  @media only screen and (max-width: 800px) {
+    .navbar .animationItem {display: none;}
+    .container-animation--flexbox {display: none;}
+  }
+  @media only screen and (max-width: 600px) {
+    .logo {position: absolute;
+          width: 100%;
+          top: 0%!important}
+    .heading {width: 100%;
+              position: relative;
+              border-bottom: 3px dotted black;} 
+  }

@@ -16,12 +16,26 @@ p{
   font-family: courier;
 }
 .imagee {
-  display: inline-flex;
-  padding: 20px;
-  margin-left: 40px;
+  padding: 40px;
+  position: relative;
 }
 img {
   border-radius: 50%;
-  z-index: 2;
+  z-index: 3!important;
 }
 
+@media only screen and (max-width: 1135px) {
+  .box {position: relative;
+        left: 25%;
+        text-align: center;
+        padding: 20px;}
+  #header {max-height: 1000vh!important;}
+  img {display: block!important;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;}
+}
+
+@media only screen and (max-width: 550px) {
+  .imagee {display: none;}
+}
