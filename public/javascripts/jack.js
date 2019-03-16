@@ -14,7 +14,7 @@ pictures.forEach(pic => pic.addEventListener("click", function(e){
     let imgg = document.createElement('img');
     imgg.setAttribute('src', selected_src)
 
-    imgg.setAttribute("style", "height: 500px; width: 400px; position: absolute; top: 10%;left: 35%; border: 2px solid white;")
+    imgg.setAttribute("style", "height: 500px; width: 400px;margin-left: auto; margin-right: auto;display: block; border: 2px solid white;")
     modal_div.appendChild(imgg); 
     document.body.appendChild(modal_div);
 

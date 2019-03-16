@@ -12,14 +12,16 @@ block heading
     h1(style='color:white') -Play Play Play
 
 block rains
-  
-  video.flex(type='text/html' width='500' height='400'
-    src='/images/try.mov'
-    frameborder='0')
-  .playBtn
-  block rains
+  .test
+    .playBtn
+    video.flex(type='text/html' width='500' height='400'
+      src='/images/try.mov'
+      frameborder='0')
     .speed
       .speed-bar 1&times;
+  //- block rains
+  //-   .speed
+  //-     .speed-bar 1&times;
 
 block scripts
   script(src='javascripts/cello.js')
