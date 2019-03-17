@@ -15,26 +15,13 @@
     height: 100px;
     background: rgb(238, 177, 121);
 }
-.sns {
-    position: relative;
-    height: 50px;
-    width: 200px;
-    top: 25px;
-    float: right;
-}
-#footer li {
-    list-style-type: none;
-    float: left;
-    font-size: 30px;
-    letter-spacing: 20px;
-}
 
 .boxes {
     position: fixed;
     top: 50%;
     left: 50%;
     width: 90%;
-    max-width: 790px;
+    max-width: 740px;
     height: 180px;
     font-family: "Open Sans", sans-serif;
     transform: translate(-50%, -50%);
@@ -126,4 +113,5 @@
 @media only screen and (max-width: 600px) {
     .clock {margin-right: auto; margin-left: auto;margin-top:auto;font-size: 70px; }
     .navbar {border-bottom: 3px dotted black;}
+    .boxes {max-width: 400px;}
 }
