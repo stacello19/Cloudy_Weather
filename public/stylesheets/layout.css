@@ -171,21 +171,24 @@
     width: 100px;
   }
   .dropdown-content {
+    border-radius: 20%;
     display: none;
     position: absolute;
     background-color: inherit;
     min-width: 100px;
-    max-width: 300px;
+    max-width: 261px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 2;
     top: 70%;
   }
   .dropdown-content a {
+    border-radius: 20%;
     color: black;
-    padding: 8px 10px;
+    padding: 10px;
     text-decoration: none;
     display: block;
     font-size: 13px;
+    text-align: center;
   }
 .dropdown-content a:hover {background-color: rgb(218, 120, 120);color: white;}
 .logo:hover .dropdown-content {display: block;}
