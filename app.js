@@ -4,7 +4,6 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
-var indexRouter = require('./routes/index');
 var contactRouter = require('./routes/contact');
 var celloRouter = require('./routes/cello');
 var aboutRouter = require('./routes/about');
@@ -23,10 +22,9 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/', indexRouter);
 app.use('/contact', contactRouter);
 app.use('/cello', celloRouter);
-app.use('/about', aboutRouter);
+app.use('/', aboutRouter);
 app.use('/jack', jackRouter);
 app.use('/skills', skillsRouter);
 
