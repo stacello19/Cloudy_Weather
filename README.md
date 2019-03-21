@@ -11,4 +11,4 @@ I used various Javascript skills in each page such as controlling the video play
 picture album, controlling the pictures by mouse hovering, typewrite, and making the website in motion by implementing actions 
 to clouds, rain (with different color), and picture.    
 
-![]
+![image](https://user-images.githubusercontent.com/45322680/54732070-1dca7400-4b68-11e9-9e0a-472d90e8ef58.png)
