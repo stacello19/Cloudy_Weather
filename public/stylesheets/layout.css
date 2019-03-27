@@ -181,6 +181,9 @@
     z-index: 2;
     top: 70%;
   }
+  .dropdown-content {
+    margin-top: 15px;
+  }
   .dropdown-content a {
     border-radius: 20%;
     color: black;
@@ -201,9 +204,16 @@
   .logo {position: absolute;
         width: 90%;
         top: 0%!important}
+  .logo p {width: 100px;
+           margin-top: 10px;}
   .heading {width: 100%;
             position: relative;
-            border-bottom: 3px dotted black;} 
-  .dropdown-content {left: 20%!important;top: 10%!important;margin-left: 20px;}
+            border-bottom: 3px dotted black;
+            margin-top: 35px;} 
+  .dropdown-content {left: 20%!important;top: 20%!important;margin-left: 20px;}
   .dropdown-content a {display: inline-block;padding: 10px 20px;}
+}
+.logo p {
+  margin-bottom: 0;
+  border: 2px dotted white;
 }

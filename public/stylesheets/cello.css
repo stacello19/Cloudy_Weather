@@ -6,7 +6,7 @@
   margin-right: auto;
   margin-left: auto;
   width: 500px;
-  height: 600px;
+  height: 515px;
   margin-top: 60px;
 }
 video {
@@ -58,4 +58,5 @@ video {
   @media only screen and (max-width: 600px) {
     .speed {display: none;}
     video {width: 500px!important;}
+    .heading {padding-top: 25px;}
   }
