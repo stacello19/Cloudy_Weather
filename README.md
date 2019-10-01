@@ -1,12 +1,14 @@
 # To See
-You can also visit https://cloudyweather.herokuapp.com/
+please visit https://cloudyweather.herokuapp.com/
 
-# How to start
-Run ``` yarn start```, then it will listen to port:3000. 
+# To Start on your editor
+1. yarn install
+2. yarn start (localhost:3000)
 
 # Skills
 Pug, Express, Javascript
 
+# About Pages
 --About
 ![image](https://user-images.githubusercontent.com/45322680/54732070-1dca7400-4b68-11e9-9e0a-472d90e8ef58.png)
 
