@@ -5,13 +5,13 @@
 
 
 ## Skills
+* Pug
 * Javascript
-* HTML
 * CSS
 
 
 ## Functional Objective
-CloudyWeather Blog is a personal website using Javscript, HTML, and CSS.
+CloudyWeather Blog is a personal website using Javscript, Pug, and CSS.
 
 
 ## Technical Objective
